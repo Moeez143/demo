@@ -1,0 +1,60 @@
+/* Basic styling for the to-do list container */
+.todo-list {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+/* Styling for the individual to-do items */
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+/* Styling for the checkbox */
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Styling for the text of the to-do item */
+.todo-item span {
+    flex: 1;
+}
+
+/* Styling for the "delete" button */
+.todo-item button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for completed to-do items */
+.todo-item.completed {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+/* Styling for the "add to-do" button */
+.add-todo-btn {
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px #ccc;
+}
